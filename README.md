@@ -1,5 +1,5 @@
 # self-driving-car-PID-Controller
-- [Udacity PID Controller Project](https://github.com/udacity/CarND-PID-Control-Project)
+- [Udacity PID Controller Project](https://github.com/udacity/CarND-PID-Control-Project): this project is to apply a PID controller to the simulator. The simulator provides cross-track error (CTE), speed, and steering value. The PID controller has to respond with steering value in order to drive the car on the track.
 
 [//]: # (Image References)
 [pid_algorithm]: ./assets/algorithm.PNG
