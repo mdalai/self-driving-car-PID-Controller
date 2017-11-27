@@ -38,4 +38,6 @@
 
 **Conclusion**: D-value solves overshooting; I-value solves off the track problem at the curve. The best parameters are (P,D,I) = (0.1, 0.00001, 5.0).
 
-## Tiwddle
+## Next
+- implement [Twiddle](https://martin-thoma.com/twiddle/).
+- implement throttle to control speed.
