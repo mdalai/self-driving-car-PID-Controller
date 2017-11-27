@@ -14,13 +14,19 @@
 
 ## Manually tunning parameters
 ### Only P
-Wabble
+- P parameter= 0.1: pretty good in the beginning, start wabbling when it comes to the curve.
+- P parameter= 0.5: start wabbling soon after the start. Obviously, it is overshooting from the center line.
+- P parameter= 0.3: wabbling soon after the start. This is overshooting.
 
-overshoot
-
-
+**result**: 0.1 is best P value. But in order to find the best D parameter to solve overshooting, we will use P=0.3. 
 ### P+D
+- (P,D) = (0.3,0.1): overshooting problem gets worse.
+- (P,D) = (0.3,0.01): overshooting problem is still terrible.
+- (P,D) = (0.3,0.0001): overshooting get better.
+- (P,D) = (0.3,0.00001): overshooting get even better.
 
+**result**: 0.00001 is best D value. Let's use best P and best D to test.
+- (P,D) = (0.1,0.00001): works good in the beginning. It start wabbling a lot from the curve and run off the road after little while.
 
 ### P+D+I 
 
