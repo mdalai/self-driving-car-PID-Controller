@@ -12,7 +12,7 @@
 - **Integral control**: this part compensates the systematic bias in the CTE which prevents the PD controller from reaching the center line.
 
 
-## Manual tunning parameter
+## Manually tunning parameters
 ### Only P
 Wabble
 
