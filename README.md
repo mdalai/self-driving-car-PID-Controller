@@ -1,4 +1,5 @@
 # self-driving-car-PID-Controller
+- [Udacity PID Controller Project](https://github.com/udacity/CarND-PID-Control-Project)
 
 [//]: # (Image References)
 [pid_algorithm]: ./assets/algorithm.PNG
@@ -12,7 +13,7 @@
 - **Integral control**: this part compensates the systematic bias in the CTE which prevents the PD controller from reaching the center line.
 
 
-## Manually tunning parameters
+## Manually tunning parameters process
 ### Only P
 - P parameter= 0.1: pretty good in the beginning, start wabbling when it comes to the curve.
 - P parameter= 0.5: start wabbling soon after the start. Obviously, it is overshooting from the center line.
